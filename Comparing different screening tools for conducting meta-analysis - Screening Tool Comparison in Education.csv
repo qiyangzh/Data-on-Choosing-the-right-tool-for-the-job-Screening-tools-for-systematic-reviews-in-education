@@ -1,0 +1,163 @@
+Name,Include,Info,"Launching
+Year","Last
+modification","Developer 
+Publication",Developer,Country,"Title/
+Abstract Screening","Full-text 
+review",Platform,Import format,Export format,"Bulk 
+application","Machine 
+learning
+classifiers",Deep learning,Teamwork?,"Blind 
+Review","Duplicate 
+removal?","Inter-rater 
+reliability",Update?,Labels,Reason label?,Accessiblity,Privacy Policy,Advantage,Disadvantage,Examples in Education
+Abstrackr,1,"Abstrackr is a semi-automated tool helps your team to screen, organize, 
+and manipulate all of your abstracts in one place.",2012,,Byron et al. (2012),"Developed by Tufts Evidence-based Practice Center
+Maintained by Brown Center for
+Evidence Synthesis in Health",USA,1,0,web-based,"PubMed IDS(recommended), 
+EndNote, XML files
+arbitrary tab-separated files",tab-delimited data,1,1,0,1,1,0,0,1,"relevant, 
+borderline, 
+irrelevant",0,Open-source,"""We do not have a limit on how long we retain your account information and/or data"" 
+""In order to provide service, we collect basic information to identify and to keep your data separate from other users. 
+Basic information we collect include your name, email address, password, a username and an estimate of how many systematic reviews you have participated in. 
+All of this information is provided to us by you and we do not share it with any third parties in any shape or form.""
+""We do not share any information with third parties""","Easy to use
+private tags for blind review
+helps organize and sort abstracts based on their probability of inclusion","Outdated machine learning algorithms -> error-prone
+can't remove duplicates automatically
+Poor quality user interface: “..it felt a bit clunky..”
+“Not a very professional website…” “Exporting not as clear format as Covidence or Rayyan.”
+“..0 or − 1 as identifiers of exclude are ambiguous..” 
+(https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-020-0897-3/tables/3)
+Abstrackr’s reliability and the workload savings varied by screening task. Workload savings came at the
+expense of potentially missing relevant records
+(https://link.springer.com/content/pdf/10.1186/s13643-018-0707-8.pdf)",
+Covidence,1,"Covidence is the primary screening and data extraction tool
+ for Cochrane authors conducting standard intervention reviews.",2015,,,"Australian non-profit company
+Veritas Health Innovation",Australia,1,1,Web-based,RIS format,"CSV, Mendeley, EndNote, RefWorks, 
+Zotero, Cochrane Registry of Studies, 
+Excel, export to RevMan",1,0,0,1,,1,,1,"include, 
+maybe, 
+exclude",1,"Expensive: $240/year for one review, 
+$635/year for 3 reviews, 
+free trial available, 
+concessions for researchers in low-income countries","""you agree to the collection, storage, usage and disclosure of your Personal Data by us in the manner desh cribed in this Privacy Policy""
+""Personal Data” means any information that allows someone to identify you, including, for example, your name, address, telephone number, e-mail address, 
+as well as any other non-public information about you that is associated with or linked to any of the foregoing data""","A large community, 24/7 online technical support
+mirror the multi-phase review process
+built-in functions to remove duplicates
+produce PRISMA diagram
+“Simple user interface…”
+“.. - very clear and simple, not too much information on the page.” 
+(https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-020-0897-3/tables/3)","There is no full blinding for screening and conflict resolution.
+Tags are visible to other reviewers",
+ASReveiw,1,"Uses the latest machine learning algorithm and 
+active learning to minimize errors and maximize accuracy",2019,2020,Schoot et al. (2021),Utrecht University,Netherlands,1,0,Terminal & Python-based,RIS format /Tabular datasets,"CSV, Excel",1,1,1,0,,,,0,"relevant, 
+irrelevant",0,Open-source,"the software does not have access to user data, as the program runs locally",The most updated machine learning algorithm,Arbitrary decision to stop,
+RevMan Web/RevMan 5,1,"RevMan facilitates preparation of protocols and full reviews, including text, 
+characteristics of studies, comparison tables, and study data. 
+It can perform meta-analysis of the data entered, and present the results graphically
+RevMan5 is gonna retire soon, RevMan web will be the successor",2008,2019,,The Cochrane Collaboration,UK,1,1,Web-based or desktop software,Enter the study one by one manually!,,0,0,0,1,0,0,0,1,,,"Open-source
+""RevMan is free of charge if used for purely academic use."" 
+You are allowed to use RevMan free of charge to prepare Cochrane Reviews or for purely academic use.
+For commercial use you have to purchase a license.
+(https://training.cochrane.org/online-learning/core-software-cochrane-reviews/revman/reasons-downloading-revman-5)",,,"not very user friendly,
+More complex models, such as the HSROC and Bivariate model, cannot be fitted in RevMan
+RevMan 5.3 was becoming a security concern (2:14, https://www.youtube.com/watch?v=d2Og2Caur2Q)",
+Rayyan,1,"It is completely web-based, with offline compatibility through its app.","2014 
+(there is a youtube video introducing Rayyan in 2014)",2021,Ouzzani et al. (2016),"Qatar Computing Research Institute: 
+Rayyan Systems Inc.",Qatar,1,0,"Completely web-based, 
+with offline compatibility through its app","From Rayyan: BibTeX, EndNote, RefMan, CSV, WoRD Document, Plain Text, ZIP, GZ
+Though advertised to support import from an EndNote format (.enw), 
+this did not work properly. Import of RIS formats worked best across platforms.
+(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6148615/#:~:text=Rayyan%20is%20a%20completely%20free,decisions%20to%20include%20or%20exclude.)","BibTeX, EndNote, RefMan, CSV",1,1,0,1,1,0,0,1,"include,
+undecide,
+exclude",1,"Open-source 
+""Rayyan is a completely free tool developed to expedite the SR process by easing citation sharing and allowing comparison of decisions to include or exclude.""
+(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6148615/#:~:text=Rayyan%20is%20a%20completely%20free,decisions%20to%20include%20or%20exclude.)","""The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. ""
+""Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.""
+""When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.
+We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.""",,"No bulk import function is available, so each PDF must be attached individually. 
+Conflicts must be resolved manually through unblinded consensus. A chat feature is available for this purpose.
+The integrated deduping function batch identifies duplicates, putting them in a separate folder where each one must be manually resolved. Rayyan missed several known duplicates, and the authors recommend the deduping process be done in EndNote prior to upload.(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6148615/#:~:text=Rayyan%20is%20a%20completely%20free,decisions%20to%20include%20or%20exclude.)
+""Too much content on the side panel.""
+“I don’t think the sections of the left side of the screen are helpful”
+“<it suggests> keywords to include/exclude - it means you have to start by deleting theirs”
+(https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-020-0897-3/tables/3)",
+EPPI-Reviewer,1,"EPPI-Reviewer (2020) supports the development of systematic reviews from 
+study screening through data collection, analysis and synthesis. 
+It includes features such as text mining, data clustering, classification and term extraction, 
+utilising machine learning to speed up the screening process
+EPPI-Reviewer 4, the predecessor, was launched in 2010",2010,2020,"Thosmas et al. (2010)
+Thomas et al. (2020)","EPPI-Centre at the Social Science Research Unit at the Institute of Education, University College London, and University of London, UK.",UK,1,1,Completely web-based,"RIS, PubMD, RefWorks, Web of Science, Psychinfo, OVID RIS","JSON, RIS and Excel",1,1,,1,1,1,,1,"eclude for xxx reasons, 
+include for second opinion,
+include for title & abstract",1,"Two versions:
+1. There is a user fee of £10 per month. This fee gives the user access to the software and the ability to create and maintain an unlimited number of non-shareable reviews. A non-shareable review is a review that only has one person in it (the account holder).
+2. If a user wishes to have a shareable review (a review that can have more than one user) then there is a review subscription. This fee is £35 per month per review. All users in a shareable review must have active user accounts.","""EPPI-Reviewer and all accessory services (this site, the management application and the upcoming payment gateway) were designed according to the highest security standards to ensure that your data are always safe and protected from unauthorised access.""
+","http://eppi.ioe.ac.uk/CMS/Portals/35/machine_learning_in_eppi-reviewer_v_7_web_version.pdf
+EPPI-Mapper is our tool for visualising ‘maps’ of research evidence. Built initially to support the Campbell Collaboration’s evidence gap maps, it is available for all EPPI-Reviewer users at no charge.
+Two robots: RobotReviewer robot, Human Behaviour Change robot",,"Liabo et al. (2012)
+Andrews et al. (2005)"
+DistillerSR,1,"DistillerSR automates the management of literature collection, 
+triage, and assessment using AI and intelligent workflows.",2018,2021,Pham (2017),"Evidence Partners Inc.
+Ottawa, Canada",Canada,1,1,Web-based,.TXT file,"Excel, Word, CSV, RIS, Curator",1,1,,1,1,1,0,1,"Yes
+No
+Can't tell",1,"Very pricey: $175~$275 per month for annual billing,
+$215~$345 per month for monthly billing,
+For students and faculty: $75 per month for up to five projects + email support +basic training, 4-month free trial for single user to work on one project, no email support
+60 day satisfaction guarantee, invoice only comes after 60 days trial","""When you purchase a subscription to use our software or opt-in to receive marketing or sales communications from us, we collect the following personal information about you, and/or your organization:
+Name & address
+Postal code
+Phone number
+Email address for work contact
+Purchase history
+Evidence Partners software product/service preferences
+Payment information""
+""This Privacy Statement does not apply to data you upload through our software like aggregate health information, medical literature references, etc., from which you use our software to generate output data (“Customer Data”).  Customer Data is subject to the agreement between you and Evidence Partners when you purchase a subscription to use our software.""
+""We retain information throughout the relationship between you and Evidence Partners and as necessary for us to comply with our legal obligations.  Once we no longer need the information for the purpose for which it was collected, we securely dispose of or de-identify the personal information unless otherwise required by law or requested by you in writing under your rights ""
+","There is a quality assessment to rate the study quality (label RCT, Sample Number etc.)
+Reviewer Compatibility: You can group a junior and a senior reviewer to avoid two junior reviewers reviewing one study",More suitable for RCT studies involve clinical trials,Salter et al. (2014)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Excel,?,"use a method called VonVille
+labor intensive",1985,,,Microsoft Corporation,,,,Allow both online and off-line,,,,0,,,,,,,,,,,,,
+Sysrev,0,SysRev helps humans work together and with machines to extract data from documents.,,,,Insilica,,,,web-based,,"Pdf, Endnote, Pubmed",1,1,,,,,,,,,$0~10 per month,Public projects can be discovered by search engines like google and bing. All data generated in a public project can be discovered and downloaded on the internet.,The motivation behind Sysrev’s active learning is to maximize the value of human time.,,
+DRAGON,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SWIFT-Active Screener,0,"SWIFT-Active Screener is a web-based, collaborative systematic review software application.",,,"Miller et al. (2016)
+Miller K, Howard BE, Phillips J, Shah MR, Mav D, Shah RR (2016). “SWIFT-Active Screener: Reducing Literature Screening Effort Through Machine Learning for Systematic Reviews.” Poster presentation at the Society of Toxicology’s 55th Annual Meeting and ToxExpo, New Orleans, LA.",Sciome,,,,web-based,"accepts imports from many of the most popular bibliographic databases and reference curation platforms including EndNote, Mendeley, Zotaro, PubMed, and SWIFT-Review.","Results from screening activities in Active Screener can also be exported in standard data formats compatible with a wide range of applications including EndNote, Mendeley, Zotaro, PubMed, HAWC and Excel",,1,,1,,,,,,,,,,,
+CADIMA,Review questions from any research discipline can be addressed,"CADIMA is a free web tool facilitating the conduct and assuring 
+for the documentation of systematic reviews, systematic maps and further literature reviews.",2012,,,,,,,,,,,,,,,,,,,,,,,,
+ReLiS,0,"ReLiS stands for Revue Litteraire Systématique which is French for Systematic Literature Reviews Relis literally translates to “reread”.
+we have created ReLiS which provides essential software support to reviewers in conducting high quality systematic reviews. With ReLiS, you can planning, conducting, and reporting your review.",2018,,Bigendako & Syriani (2018),Universite de Montreal,Canada,,,,,,,,,,,,,,,,,,,,
+StArt,0,StArt (State of the Art through Systematic Review),2010,,Zamboni et al. (2010),"The Laboratory of Research on Software Engineering
+Federal University of São Carlos ",Brazil,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Colandr,?,"Colandr is an open-source and open-access machine-learning assisted online platform for 
+conducting systematic reviews and syntheses with a focus in biodiversity research. It was launched in July 2017 at the International Congress for Conservation Biology in Cartagena, Colombia.(Cheng et al., 2018)
+",2018,,Cheng et al. (2018),"The Science for Nature and People Partnership
+DataKind
+Conservation International
+The Center for Biodiversity and Conservation at the American Museum of Natural History",USA,1,1,Web-based,"BibTex, RIS, TXT",CSV,1,1,0,1,,1,,1,"include,
+exclude",,Open access,"""DataKind may collect information about you at different stages and through various means. We try to collect as little data as necessary to provide our services. Some of it is optional, but allows us to continuously improve ourselves: we will only collect such data with your explicit consent.""",,,
+RobotAnalyst,0,"RobotAnalyst was developed as part of the Supporting Evidence-based Public Health Interventions using Text Mining project to support the literature screening phase of systematic reviews. RobotAnalyst is designed for searching and screening reference collections obtained from literature database queries. It combines search engine functionality with machine learning and text mining technology, including topic modelling and relevancy feedback-based text classification models, to minimise the human workload involved in identifying relevant references.",,,,,,,,,,,,1,0,,,,,,,,,,,,
+SyRF,0,"SyRF is a fully integrated online platform for performing systematic reviews of 
+preclinical studies. It is a free to use resource for researchers.",,,,CAMARADES,,,,,,,,,,1,,,,,,,,,,,
+revtools,0,An R package to support article screening for evidence synthesis,,,MJ Westgate (2019) revtools: An R package to support article screening for evidence synthesis. Research Synthesis Methods http://doi.org/10.1002/jrsm.1374,,,,,,,,1,,,,,1,,,,,,,,,
+METAGEAR,0,metagear package for R,,,,,,,,,,,,,,,,,,,,,,,,,
+PASRIFAL,0,Parsifal is an online tool designed to support researchers to perform systematic literature reviews within the context of Software Engineering. ,,,,,,,,,bibtex files,,,,,,,1,,,,,,,,,
+SRDB.PRO,0,"SRDB.PRO is the first enterprise level systematic review and data analysis 
+platform designed specifically for the Pharmaceutical industry and healthcare consultancies.",,,,,,,,,,,,,,,,,,,,,,,,,
+FASTREAD,0,one of the 32 active learning approaches,,,,,,,,,,,,1,0,,,,,,,,,,,,
+SRDR Plus,0,"SRDR Plus (The Systematic Review Data Repository: Plus)
+ is a tool for extracting, managing, and archiving data. 
+It is an open and searchable archive of systematic reviews and their data.",,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Average launching year of the included screening tools,2013.666667,"Normally need a year or two to figure out the functions and learn to use, therefore, only review the most recent five years from 2015-01-01 onwards. The fetching python code returns me 178 studies.",,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+OpenMeta[Analyst],0,"OpenMeta[Analyst] is an open-source, cross-platform, 
+point and click tool to perform meta-analysis.",,,,,,,,,,,,,,,,,,,,,,,,,
